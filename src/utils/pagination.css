@@ -1,0 +1,19 @@
+.pagination{
+    list-style: none;
+    display: flex;
+}
+
+.pagination li{
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    margin:.5px;
+}
+
+.pagination li a{
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    background-color: aliceblue;
+}

@@ -1,0 +1,69 @@
+/* .App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #080808;
+}
+
+.App{
+  display: flex;
+}
+
+.search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5EBE0;
+  height: 100vh;
+  width: 300px;
+}
+
+.booklist{
+  position: relative;
+  display: flex;
+  background-color: #F0DBDB;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.list-group{
+  display: grid;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+.list-group li{
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+  background-color: white;
+}

@@ -1,0 +1,50 @@
+/* body {
+    background-color: #FAC945;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    
+    font-size: 17px;
+    
+    overflow: hidden;
+    
+  } */
+  .searchList {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .searchList div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    margin: 15px;
+  }
+
+  .searchList div input{
+    outline: none;
+    border: none;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+  }
+
+  .searchButton{
+    margin-top: 20px;
+    background-color: aqua;
+    border: none;
+    box-shadow: 0 10px 25px rgba(0,0,0,.1);
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+
+  
+
+
+  
